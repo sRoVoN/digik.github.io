@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Naskh+Arabic:wght@;300400;500;600;700&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/be56a9313d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header" style="height: 60px">
+      <img
+        src="./images/header.jpg"
+        alt="header"
+        style="
+          object-fit: cover;
+          height: 60px;
+          width: 100%;
+          overflow: hidden;
+          cursor: pointer;
+        "
+      />
+    </div>
+    <div class="nav-right">
+      <div class="nav-up">
+        <div class="nav__logo nav__logo-appear">
+          <a href="#">
+            <div class="nav__logo-dg">
+              <img
+                src="./images/logo.svg"
+                alt="لوگوی دیجی کالا"
+                width="115px"
+                height="45px"
+                style="object-fit: contain"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="nav-right">
+        <div class="nav__logo nav__logo-disappear">
+          <a href="#">
+            <div class="nav__logo-dg">
+              <img
+                src="./images/logo.svg"
+                alt="لوگوی دیجی کالا"
+                width="115px"
+                height="45px"
+                style="object-fit: contain"
+              />
+            </div>
+          </a>
+        </div>
+        <div class="nav__inpt">
+          <img
+            src="./images/magnifying-glass-solid.svg"
+            width="18px"
+            height="18px"
+          />
+          <span class="inpt__text">جستجو</span>
+        </div>
+      </div>
+      <div class="nav-left">
+        <div class="nav__login">
+          <svg
+            class="icon"
+            style="width: 18px; height: 18px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use xlink:href="../images/sprite.svg#previous-svgrepo-com"></use>
+          </svg>
+          ورود / ثبت نام
+        </div>
+        <div class="nav__cart-shop">
+          <svg class="icon" style="width: 25px; height: 25px">
+            <use xlink:href="../images/sprite.svg#cart-shopping-solid"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="menu nav__sub"
+      style="display: grid; grid-template-columns: repeat(2, 80% 20%)"
+    >
+      <ul class="ul-products">
+        <li class="list-products">
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn"
+            ><span class="nav-icon"></span><span></span
+          ></label>
+          <ul class="menu__ul">
+            <li>
+              <a href="#"
+                ><svg
+                  class="icon"
+                  style="width: 20px; height: 20px; cursor: pointer"
+                >
+                  <use
+                    xlink:href="images/sprite1.svg#cell-phone-svgrepo-com"
+                  ></use>
+                </svg>
+                موبایل
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  class="icon"
+                  style="width: 20px; height: 20px; cursor: pointer"
+                >
+                  <use
+                    xlink:href="./images/sprite1.svg#laptop-svgrepo-com"
+                  ></use>
+                </svg>
+                دیجیتال
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="icon"
+                  style="width: 20px; height: 20px; cursor: pointer"
+                >
+                  <use
+                    xlink:href="./images/sprite1.svg#tools-svgrepo-com"
+                  ></use>
+                </svg>
+                ابزار
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="icon"
+                  style="width: 20px; height: 20px; cursor: pointer"
+                >
+                  <use
+                    xlink:href="./images/sprite1.svg#clothes-svgrepo-com"
+                  ></use>
+                </svg>
+                پوشاک
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="icon"
+                  style="width: 20px; height: 20px; cursor: pointer"
+                >
+                  <use
+                    xlink:href="./images/sprite1.svg#online-store-supermarket-svgrepo-com"
+                  ></use>
+                </svg>
+                سوپر
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/lego-svgrepo-com.svg"
+                  style="width: 20px; height: 20px; cursor: pointer"
+                />اسباب بازی</a
+              >
+            </li>
+            <li class="list-products">
+              <a href="#"
+                ><svg
+                  class="icon"
+                  style="width: 20px; height: 20px; cursor: pointer"
+                >
+                  <use
+                    xlink:href="./images/sprite1.svg#rural-house-with-wind-mill-svgrepo-com"
+                  ></use>
+                </svg>
+                محصولات بومی و محلی
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><svg
+                  class="icon"
+                  style="width: 25px; height: 25px; cursor: pointer"
+                >
+                  <use
+                    xlink:href="./images/sprite1.svg#unlock-beauty-svgrepo-com"
+                  ></use>
+                </svg>
+                سلامتی و زیبایی
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="list-products">
+          <a href="#">
+            <svg class="icon" style="width: 20px; height: 20px">
+              <use xlink:href="./images/sprite.svg#groceries-svgrepo-com"></use>
+            </svg>
+            سوپر مارکت
+          </a>
+        </li>
+        <li class="list-products">
+          <a href="">
+            <svg class="icon" style="width: 20px; height: 20px">
+              <use
+                xlink:href="./images/sprite.svg#fire-flame-curved-solid"
+              ></use>
+            </svg>
+            پرفروش ترینها
+          </a>
+        </li>
+        <li class="list-products">
+          <a href="">
+            <svg class="icon" style="width: 20px; height: 20px">
+              <use xlink:href="./images/sprite.svg#discount-svgrepo-com"></use>
+            </svg>
+            تخفیف ها و پیشنهادها
+          </a>
+        </li>
+        <li class="list-products">
+          <a href="">
+            <svg class="icon" style="width: 20px; height: 20px">
+              <use xlink:href="./images/sprite.svg#increadible"></use>
+            </svg>
+            شگفت انگیزها
+          </a>
+        </li>
+      </ul>
+      <div class="menu__loc" style="display: flex">
+        <svg class="icon" style="width: 20px; height: 20px">
+          <use
+            class="location-choosing"
+            xlink:href="./images/sprite.svg#location-sign-svgrepo-com"
+          ></use>
+        </svg>
+        <a class="location" href="#">لطفا شهر خود را انتخاب کنید</a>
+      </div>
+    </div>
+    <div class="display">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <div class="slide first">
+            <img src="./images/1.gif" />
+          </div>
+          <div class="slide">
+            <img src="./images/2.jpg" />
+          </div>
+          <div class="slide">
+            <img src="./images/3.jpg" />
+          </div>
+          <div class="slide">
+            <img src="./images/4.jpg" />
+          </div>
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+    </div>
+    <div class="offers">
+      <div class="offer">
+        <img src="./images/jet.png" alt="جت کالا" /><span class="offer__text">
+          دیجی کالا جت
+        </span>
+      </div>
+      <div class="offer">
+        <img src="./images/harajstyle.png" alt="حراج استایل " /><span
+          class="offer__text"
+        >
+          حراج استایل
+        </span>
+      </div>
+      <div class="offer">
+        <img src="./images/kharidaghsati.png" alt="خرید اقساطی " /><span
+          class="offer__text"
+        >
+          خرید اقساطی
+        </span>
+      </div>
+      <div class="offer">
+        <img src="./images/kharidomde.png" alt="خرید عمده " /><span
+          class="offer__text"
+        >
+          خرید عمده و سازمانی
+        </span>
+      </div>
+      <div class="offer">
+        <img
+          src="./images/pishnahadmobile.png"
+          alt="پیشنهاد روز موبایل "
+        /><span class="offer__text"> پیشنهاد روز موبایل </span>
+      </div>
+      <div class="offer">
+        <img src="./images/jamjahani.png" alt="جام جهانی " /><span
+          class="offer__text"
+        >
+          جام جهانی
+        </span>
+      </div>
+      <div class="offer">
+        <img src="./images/roozhediye.png" alt="هدیه " /><span
+          class="offer__text"
+        >
+          روز هدیه نقدی
+        </span>
+      </div>
+      <div class="offer">
+        <img
+          style="width: 58px; height: 58px"
+          src="./images/icons8-view-more-48.png"
+          alt="بیشتر "
+        /><span class="offer__text"> بیشتر </span>
+      </div>
+    </div>
+    <div class="market">
+      <div class="market-increadible">
+        <img src="./images/fresh.png" alt="fresh" class="market-fresh" />
+        <img src="./images/fresh.svg" alt="text" class="market-text" />
+        <div class="badge market-badge">
+          <span class="badge-text">تا پنجاه درصد تخفیف</span>
+        </div>
+      </div>
+      <div class="market-offers">
+        <div class="market-circle market-appear">
+          <a href="#" class="market-offer"><img src="./images/prill.jpg" /></a>
+        </div>
+        <div class="market-circle market-appear">
+          <a href="#" class="market-offer"
+            ><img src="./images/konserv.jpg"
+          /></a>
+        </div>
+        <div class="market-circle market-appear">
+          <a href="#" class="market-offer"
+            ><img src="./images/choclatejpg.jpg"
+          /></a>
+        </div>
+        <div class="market-circle market-disappear-3">
+          <a href="#" class="market-offer"><img src="./images/adas.jpg" /></a>
+        </div>
+        <div class="market-circle market-disappear-2">
+          <a href="#" class="market-offer"><img src="./images/sosis.jpg" /></a>
+        </div>
+        <div class="market-circle market-disappear-1">
+          <a href="#" class="market-offer"><img src="./images/fries.jpg" /></a>
+        </div>
+        <div class="badge-simple">
+          <a href="#" class="link-arrow"
+            ><span class="badge-text simple-text">بیش از صد کالا </span></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="discounts grid grid-cols-2">
+      <div class="rice"><img src="./images/rice.jpg" alt="rice" /></div>
+      <div class="washer"><img src="./images/washer.jpg" alt="washer" /></div>
+      <div class="watch"><img src="./images/watch.jpg" alt="watch" /></div>
+      <div class="jeweiry">
+        <img src="./images/jewelry.jpg" alt="jewelry" />
+      </div>
+    </div>
+
+    <div class="brand-star">
+      <img src="./images/icons8-star-48.png" alt="star" class="icon" />
+      <p>محبوب ترین برندها</p>
+    </div>
+    <div class="brands">
+      <div class="brand-items">
+        <button
+          id="btn-scroll-left"
+          onclick="scrollHorizontally(1)"
+          class="btn-scroll"
+        >
+          <i class="fa-solid fa-circle-chevron-right"></i>
+        </button>
+        <button
+          id="btn-scroll-right"
+          onclick="scrollHorizontally(-1)"
+          class="btn-scroll"
+        >
+          <i class="fa-solid fa-circle-chevron-left"></i>
+        </button>
+        <div class="storys-container">
+          <div class="story-circle brand-pril">
+            <a href="#"><img src="./images/peril.png" alt="peril" /></a>
+          </div>
+          <div class="story-circle brand-persil">
+            <a href="#"><img src="./images/persill.png" alt="persil" /></a>
+          </div>
+          <div class="story-circle brand-king">
+            <a href="#"><img src="./images/kingstar.png" alt="kingstar" /></a>
+          </div>
+          <div class="story-circle brand-sili">
+            <a href="#"><img src="./images/silikon.png" alt="Silicon" /></a>
+          </div>
+          <div class="story-circle brand-huawei">
+            <a href="#"><img src="./images/huawei.png" alt="Huawei" /></a>
+          </div>
+          <div class="story-circle brand-pakshooma">
+            <a href="#"><img src="./images/pakshooma.png" alt="Pakshooma" /></a>
+          </div>
+          <div class="story-circle brand-noor">
+            <a href="#"><img src="./images/noor.jpg" alt="noor" /></a>
+          </div>
+          <div class="story-circle brand-samsung">
+            <a href="#"><img src="./images/samsung.jpg" alt="Samsung" /></a>
+          </div>
+          <div class="story-circle brand-kg">
+            <a href="#"><img src="./images/kg.png" alt="kg" /></a>
+          </div>
+          <div class="story-circle brand-kale">
+            <a href="#"><img src="./images/kale.png" alt="kale" /></a>
+          </div>
+          <div class="story-circle brand-freshbrand">
+            <a href="#"
+              ><img src="./images/freshbrand.png" alt="freshbrand"
+            /></a>
+          </div>
+          <div class="story-circle brand-my">
+            <a href="#"><img src="./images/my.png" alt="my" /></a>
+          </div>
+          <div class="story-circle brand-BioAqua">
+            <a href="#"><img src="./images/BioAqua.png" alt="BioAqua" /></a>
+          </div>
+          <div class="story-circle brand-Active">
+            <a href="#"><img src="./images/Active.jpg" alt="Active" /></a>
+          </div>
+          <div class="story-circle brand-SCHON">
+            <a href="#"><img src="./images/SCHON.jpg" alt="SCHON" /></a>
+          </div>
+          <div class="story-circle brand-ZARMAKARON">
+            <a href="#"
+              ><img src="./images/ZARMAKARON.png" alt="ZARMAKARON"
+            /></a>
+          </div>
+          <div class="story-circle brand-TSCO">
+            <a href="#"><img src="./images/TSCO.png" alt="TSCO" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sorts__heading">
+      <h3>دسته‌بندی‌های دیجی‌کالا</h3>
+    </div>
+    <div class="sorts">
+      <div class="assortment grid grid-rows">
+        <span class="sort">
+          <a href="#">
+            <div>
+              <img src="./images/digital.png" alt="digiral" />
+            </div>
+            <p>کالای دیجیتال</p>
+          </a>
+        </span>
+        <span class="sort sort-mobile">
+          <a href="#">
+            <div>
+              <img src="./images/mobile.png" alt="mobile" />
+            </div>
+            <p style="margin-right: 25px">موبایل</p>
+          </a>
+        </span>
+        <span class="sort">
+          <a href="#">
+            <div>
+              <img src="./images/industrialtools.png" alt="tools" />
+            </div>
+            <p style="margin-right: -20px">خودرو، ابزار و تجهیزات صنعتی</p>
+          </a>
+        </span>
+        <span class="sort">
+          <a href="#">
+            <div>
+              <img src="./images/mode.png" alt="mode" />
+            </div>
+            <p>مد و پوشاک</p>
+          </a>
+        </span>
+        <span class="sort">
+          <a href="#">
+            <div>
+              <img src="./images/supermarket.png" alt="supermarket" />
+            </div>
+            <p>کالاهای سوپرمارکتی</p>
+          </a>
+        </span>
+        <span class="sort">
+          <a href="#">
+            <div>
+              <img src="./images/toyss.png" alt="toys" />
+            </div>
+            <p>اسباب‌‌بازی، کودک و نوزاد</p>
+          </a>
+        </span>
+        <span class="sort sort-domestic">
+          <a href="#">
+            <div>
+              <img src="./images/domesticc.png" alt="domestic" />
+            </div>
+            <p>محصولات بومی و محلی</p>
+          </a>
+        </span>
+        <span class="sort">
+          <a href="#">
+            <div>
+              <img src="./images/beauty.png" alt="beauty" />
+            </div>
+            <p>سلامتی و زیبایی</p>
+          </a>
+        </span>
+        <span class="sort">
+          <a href="#">
+            <div>
+              <img src="./images/kitchen.png" alt="kitchen" />
+            </div>
+            <p>خانه و آشپزخانه</p>
+          </a>
+        </span>
+        <span class="sort sort-staitionary">
+          <a href="#">
+            <div>
+              <img src="./images/stationery.png" alt="staitionery" />
+            </div>
+            <p>لوازم تحریر</p>
+          </a>
+        </span>
+        <span class="sort sort-sport">
+          <a href="#">
+            <div>
+              <img src="./images/sport.png" alt="sport" />
+            </div>
+            <p>ورزش و سفر</p>
+          </a>
+        </span>
+      </div>
+    </div>
+    <div class="recommendation">
+      <div class="swiper-container">
+        <div class="swiper-wraper">
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="flex-column">
+                <div class="circle">
+                  <div
+                    class="widgetleafcategory"
+                    style="width: 70px; height: 70px"
+                  >
+                    <img
+                      src="./images/headphone.jpg"
+                      alt="mobile"
+                      style="
+                        width: 60px;
+                        height: 60px;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    />
+                  </div>
+                </div>
+                <h4 style="align-items: center">گوشی موبایل</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="flex-column">
+                <div class="circle">
+                  <div
+                    class="widgetleafcategory"
+                    style="width: 70px; height: 70px"
+                  >
+                    <img
+                      src="./images/smartwatch.jpg"
+                      alt="mobile"
+                      style="
+                        width: 60px;
+                        height: 60px;
+                        justify-content: center;
+                        align-items: center;
+                        color: transparent;
+                      "
+                    />
+                  </div>
+                </div>
+                <h4 style="align-items: center">کیف و کاور گوشی</h4>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <div class="widgetleafcategory" style="width: 70px; height: 70px">
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/headphone.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">لپ‌تاپ</h4>
+                </div>
+              </a>
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/smartwatch.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">کیبورد</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="widgetleafcategory" style="width: 70px; height: 70px">
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/headphone.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">هدفون</h4>
+                </div>
+              </a>
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/smartwatch.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">ساعت هوشمند</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="widgetleafcategory" style="width: 70px; height: 70px">
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/headphone.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">هدفون</h4>
+                </div>
+              </a>
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/smartwatch.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">ساعت هوشمند</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="widgetleafcategory" style="width: 70px; height: 70px">
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/headphone.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">هدفون</h4>
+                </div>
+              </a>
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/smartwatch.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">ساعت هوشمند</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="widgetleafcategory" style="width: 70px; height: 70px">
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/headphone.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">هدفون</h4>
+                </div>
+              </a>
+              <a href="#">
+                <div class="flex-column">
+                  <div class="circle">
+                    <div
+                      class="widgetleafcategory"
+                      style="width: 70px; height: 70px"
+                    >
+                      <img
+                        src="./images/smartwatch.jpg"
+                        alt="mobile"
+                        style="
+                          width: 60px;
+                          height: 60px;
+                          justify-content: center;
+                          align-items: center;
+                          color: transparent;
+                        "
+                      />
+                    </div>
+                  </div>
+                  <h4 style="align-items: center">ساعت هوشمند</h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" style="position: relative; right: 30px; bottom: -10px">
+      <div>
+        <img src="./images/digi.svg" alt="digi" style="object-fit: contain" />
+      </div>
+    </a>
+    <div class="contact">
+      <p>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</p>
+      <div
+        style="display: flex; text-align: center; position: relative; top: 5px"
+      >
+        |
+      </div>
+      <p>هر روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
+    </div>
+    <div class="support">
+      <div class="support-part">
+        <a
+          href="#"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            margin: 20px 20px;
+          "
+        >
+          <div style="width: 56px; height: 56px">
+            <img
+              src="./images/express-delivery.svg"
+              alt="express-delivery"
+              style="
+                height: 56px;
+                height: 56px;
+                object-fit: cover;
+                text-align: center;
+                justify-content: center;
+              "
+            />
+          </div>
+          <p>امکان تحویل اکسپرس</p>
+        </a>
+      </div>
+      <div class="support-part">
+        <a
+          href="#"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            margin: 20px 20px;
+          "
+        >
+          <div style="width: 56px; height: 56px">
+            <img
+              src="./images/cash-on-delivery.svg"
+              alt="express-delivery"
+              style="
+                height: 56px;
+                height: 56px;
+                object-fit: cover;
+                text-align: center;
+                justify-content: center;
+              "
+            />
+          </div>
+          <p>امکان پرداخت در محل</p>
+        </a>
+      </div>
+      <div class="support-part">
+        <a
+          href="#"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            margin: 20px 20px;
+          "
+        >
+          <div style="width: 56px; height: 56px">
+            <img
+              src="./images/support.svg"
+              alt="express-delivery"
+              style="
+                height: 56px;
+                height: 56px;
+                object-fit: cover;
+                text-align: center;
+                justify-content: center;
+              "
+            />
+          </div>
+          <p>هر روز هفته، ۲۴ ساعته</p>
+        </a>
+      </div>
+      <div class="support-part">
+        <a
+          href="#"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            margin: 20px 20px;
+          "
+        >
+          <div style="width: 56px; height: 56px">
+            <img
+              src="./images/days-return.svg"
+              alt="express-delivery"
+              style="
+                height: 56px;
+                height: 56px;
+                object-fit: cover;
+                text-align: center;
+                justify-content: center;
+              "
+            />
+          </div>
+          <p>هفت روز ضمانت بازگشت کالا</p>
+        </a>
+      </div>
+      <div class="support-part">
+        <a
+          href="#"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            margin: 20px 20px;
+          "
+        >
+          <div style="width: 56px; height: 56px">
+            <img
+              src="./images/original-products.svg"
+              alt="express-delivery"
+              style="
+                height: 56px;
+                height: 56px;
+                object-fit: cover;
+                text-align: center;
+                justify-content: center;
+              "
+            />
+          </div>
+          <p>ضمانت اصل بودن کالا</p>
+        </a>
+      </div>
+    </div>
+    <div class="inform">
+      <div class="inform-one">
+        <header>با دیجی‌کالا</header>
+        <ul class="options">
+          <li class="option"><a href="#">اتاق خبر دیجی‌کالا</a></li>
+          <li class="option"><a href="#">فروش در دیجی‌کالا</a></li>
+          <li class="option"><a href="#">فرصت‌های شغلی</a></li>
+          <li class="option"><a href="#">گزارش تخلف در دیجی‌کالا</a></li>
+          <li class="option"><a href="#">تماس با دیجی‌کالا</a></li>
+          <li class="option"><a href="#">درباره دیجی‌کالا</a></li>
+        </ul>
+      </div>
+      <div class="inform-two">
+        <header>خدمات مشتریان</header>
+        <ul class="options">
+          <li class="option"><a href="#">اتاق خبر دیجی‌کالا</a></li>
+          <li class="option"><a href="#">فروش در دیجی‌کالا</a></li>
+          <li class="option"><a href="#">فرصت‌های شغلی</a></li>
+          <li class="option"><a href="#">گزارش تخلف در دیجی‌کالا</a></li>
+          <li class="option"><a href="#">تماس با دیجی‌کالا</a></li>
+          <li class="option"><a href="#">درباره دیجی‌کالا</a></li>
+        </ul>
+      </div>
+      <div class="inform-three">
+        <header>راهنمای خرید از دیجی‌کالا</header>
+        <ul class="options">
+          <li class="option"><a href="#">اتاق خبر دیجی‌کالا</a></li>
+          <li class="option"><a href="#">فروش در دیجی‌کالا</a></li>
+          <li class="option"><a href="#">فرصت‌های شغلی</a></li>
+          <li class="option"><a href="#">گزارش تخلف در دیجی‌کالا</a></li>
+          <li class="option"><a href="#">تماس با دیجی‌کالا</a></li>
+          <li class="option"><a href="#">درباره دیجی‌کالا</a></li>
+        </ul>
+      </div>
+      <div class="inform-four">
+        <header>همراه ما باشید!</header>
+        <ul class="options row-forth">
+          <li class="option">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li class="option">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="option">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="form-partion">
+        <header>از طریق ایمیل، از جدیدترین تخفیف‌ها با خبر شوید</header>
+        <form onsubmit="return false">
+          <div class="form-item">
+            <label>نام کاربری</label>
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="Username"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="off"
+                spellcheck="false"
+                data-lpignore="true"
+              />
+            </div>
+          </div>
+          <div class="form-item">
+            <label>رمز عبور</label>
+            <div class="input-wrapper">
+              <input
+                type="password"
+                id="password"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="off"
+                spellcheck="false"
+                data-lpignore="true"
+              />
+              <button type="button" id="eyeball">
+                <div class="eye"><i class="fas fa-eye"></i></div>
+              </button>
+              <div id="beam"></div>
+            </div>
+          </div>
+          <button id="submit">ورود</button>
+        </form>
+      </div>
+    </div>
+    <div class="applications">
+      <div class="application-right">
+        <div class="footer-logo">
+          <img src="./images/footerlogo2.png" alt="footer logo" />
+        </div>
+        <div class="app-text">دانلود اپلیکیشن دیجی‌کالا</div>
+      </div>
+      <div class="application-left">
+        <a href="#"
+          ><div class="app-link" style="display: block">
+            <img src="./images/google-play.svg" alt="googleplay" />
+          </div>
+        </a>
+        <a href="#"
+          ><div class="app-link">
+            <img src="./images/coffe-bazzar.svg" alt="cafe-bazar" />
+          </div>
+        </a>
+        <a href="#"
+          ><div class="app-link">
+            <img src="./images/myket.svg" alt="myket" />
+          </div>
+        </a>
+        <a href="#"
+          ><div class="app-link">
+            <img src="./images/sib-app.svg" alt="sib" />
+          </div>
+        </a>
+        <a href="#"
+          ><div class="app-link more">
+            <img src="./images/More.svg" alt="more" />
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="credit credit__grid credit--cols-2">
+      <div class="credit-text">
+        <header>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</header>
+        <p>
+          یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع،
+          باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست مشتریان خود
+          برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که فروشگاه
+          اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و توانسته از این
+          طریق مشتریان ثابت خود را داشته باشد.
+        </p>
+        <a href="#">مشاهده بیشتر <i class="fa-solid fa-chevron-left"></i></a>
+      </div>
+      <div class="credit-logos">
+        <div class="credit-logo"><img src="./images/rezi.png" /></div>
+        <div class="credit-logo"><img src="./images/kasbokar.png" /></div>
+        <div class="credit-logo"><img src="./images/logo.png" /></div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع»
+        کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه
+        آنلاین دیجی‌کالا) است.
+      </p>
+    </div>
+    <div class="footer-links">
+      <div class="link"><img src="./images/digiclub.svg" /></div>
+      <div class="link"><img src="./images/digiexpress.svg" /></div>
+      <div class="link"><img src="./images/digify.svg" /></div>
+      <div class="link"><img src="./images/digikala-business.svg" /></div>
+      <div class="link"><img src="./images/digimag.svg" /></div>
+      <div class="link"><img src="./images/digiMehr.svg" /></div>
+      <div class="link"><img src="./images/diginext.svg" /></div>
+      <div class="link"><img src="./images/digipay.svg" /></div>
+      <div class="link"><img src="./images/digiplus.svg" /></div>
+      <div class="link"><img src="./images/digistyle.svg" /></div>
+      <div class="link"><img src="./images/fidibo.svg" /></div>
+      <div class="link"><img src="./images/ganjeh.svg" /></div>
+      <div class="link"><img src="./images/komodaa.svg" /></div>
+      <div class="link"><img src="./images/magnet.svg" /></div>
+      <div class="link"><img src="./images/pindo.svg" /></div>
+      <div class="link"><img src="./images/smartech.svg" /></div>
+    </div>
+
+    <script src="./index2.js"></script>
+    <script src="./index.js"></script>
+    <script>
+      let currentScrollPosition = 0;
+      let scrollAmount = 320;
+
+      const sCont = document.querySelector(".storys-container");
+      const hScroll = document.querySelector(".brand-items");
+      const btnScrollLeft = document.querySelector("#btn-scroll-left");
+      const btnScrollRight = document.querySelector("#btn-scroll-right");
+
+      btnScrollLeft.style.opacity = "0";
+
+      let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
+
+      function scrollHorizontally(val) {
+        currentScrollPosition += val * scrollAmount;
+
+        if (currentScrollPosition >= 0) {
+          currentScrollPosition = 0;
+          btnScrollLeft.style.opacity = "0";
+        } else {
+          btnScrollLeft.style.opacity = "1";
+        }
+        if (currentScrollPosition <= maxScroll) {
+          currentScrollPosition = maxScroll;
+          btnScrollRight.style.opacity = "0";
+        } else {
+          btnScrollRight.style.opacity = "1";
+        }
+        sCont.style.left = currentScrollPosition + "px";
+      }
+    </script>
+  </body>
+</html>
